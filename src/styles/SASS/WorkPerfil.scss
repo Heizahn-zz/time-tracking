@@ -1,0 +1,50 @@
+@import './Vars.scss';
+
+.workPerfil{
+  background: $LightRed;
+  border-radius: 1.5rem;
+  margin: 4rem 2rem 0rem 2rem;
+  height: 12rem;
+  min-width: 28rem;
+  display: flex;
+  flex-flow: column wrap;
+  .workImg{
+    width: 8rem;
+    height: 30%;
+    background-image: url(../../images/icon-work.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 19rem;
+  }
+  .workDetalles{
+    background: $DarkBlue;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1.5rem;
+    color: whitesmoke;
+    font-size: $fontSize;
+    font-family: $font;
+    font-weight: 400;
+    .workTime{
+      display: flex;
+      flex-flow: column wrap;
+      align-items: flex-start;
+      justify-content: center;
+      font-weight: 400;
+    }
+    .horas{
+      font-weight: 400;
+    }
+    .workTimeWeek{
+      display: flex;
+      flex-flow: column wrap;
+      align-items: flex-end;
+      justify-content: center;
+      font-weight: 400;
+      color: $PaleBlue;
+    }
+  }
+}

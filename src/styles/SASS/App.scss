@@ -1,0 +1,9 @@
+@import "./Vars.scss";
+
+
+body{
+  background: $VeryDarkBlue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
